@@ -1,0 +1,195 @@
+.DoctBg{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../../assets/images/doctrBg.JPG);
+    width: 100%;
+    min-height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MainPad{
+    margin-top: 80px !important;
+    display: flex;
+    justify-content: center;
+}
+.SerachSubSecton{
+    background-color: rgb(230, 224, 224);
+    padding-bottom: 20px;
+    width: 100%;
+    min-height: 100px;
+}
+.SerachSecton{
+    width: 75%;
+    min-height: 1px;
+    background-color: #fff;
+    margin-top: 80px;
+}
+.SerachSecton h3{
+    color: rgb(7, 18, 182);
+    font-size: 27px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 900;
+}
+.Doctpad{
+    padding: 10px 50px 50px 50px;
+}
+@media (max-width: 1300px){
+    .SerachSecton{
+        
+        width: 95%;
+}
+.Doctpad{
+    padding: 0px 35px 35px 35px;
+}
+}
+@media (max-width: 980px){
+    .DoctBg{
+            padding: 1px 0px;
+        }
+    .Search input{
+            width: 400px;
+        }
+    .MainPad{
+            margin-top: 90px!important;
+    }
+    .SerachSecton{
+            margin-top: 0px;
+            width: 95%;
+    }
+    
+}
+@media (max-width: 759px){
+    .SerachSecton{
+       
+        width: 95%;
+    }
+}
+@media (max-width: 690px){
+    .DoctBg{
+            padding: 1px 10px;
+        }
+    .Doctpad{
+            padding: 0px 35px 35px 35px;
+        }
+    .Search input{
+            width: 350px;
+            height: 30px;
+        }
+    .SerachSecton h3{
+        font-size: 20px;
+        padding-top: 20px;
+        
+        }
+    .Search{
+            margin-top: 10px;
+        margin-bottom: 10px;
+        }
+    
+    .PadLeft{
+            padding-left: 10px;
+        }
+    .SerachSecton{
+            margin-top: -140px;
+            width: 95%;
+        }
+    .MainPad{
+            margin-top: 170px!important;
+        }
+}
+@media (max-width: 573px){
+    .DoctBg{
+        padding: 1px 0px;
+    }
+    .Doctpad{
+        padding: 0px 10px 35px 10px;
+    }
+    .Search input{
+        width: 250px;
+        margin-top: 10px;
+        height: 30px;
+    }
+    .SerachSubSecton{
+      
+        padding-bottom: 0px;
+        
+    }
+    .MainPad{
+        margin-top: 175px!important;
+    }
+}
+@media (max-width: 450px){
+  .MainPad{
+        margin-top: 270px!important;
+    }
+    .SerachSecton{
+        margin-top: -140px;
+        width: 95%;
+    }
+}
+@media (max-width: 375px){
+    .DoctBg{
+            padding: 0px;
+        }
+    .Doctpad{
+            padding: 0px 10px 35px 10px;
+        }
+    .Search input{
+            width: 200px;
+            margin-top: 10px;
+            height: 25px;
+            padding-left: 30px;
+        }
+    .SerachIcon{
+            background-image: url(../../assets//images/searchBlackMob.png);
+            background-position: 8px 6px; 
+            background-repeat: no-repeat;
+            font-size: 12px;
+        }
+    .SerachSecton h3{
+            font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+            
+        }
+        .MainPad{
+            margin-top: 275px!important;
+        }
+        .SerachSecton{
+            margin-top: -140px;
+            width: 100%;
+        }
+}
+@media (max-width: 335px){
+
+        .MainPad{
+            margin-top: 337px!important;
+        }
+    }    
+    
+@media (max-width: 375px){
+        .Search input{
+            width: 150px;
+            margin-top: 10px;
+            height: 25px;
+            padding-left: 30px;
+        }
+}
+@media (max-width: 300px){
+        .MainPad{
+             margin-top: 345px!important;
+        }
+ }
+@media (max-width: 650px){
+    .SerachSecton{
+        margin-top: -100px;
+    }
+}
+@media (max-width: 452px){
+    .SerachSecton{
+        margin-top: -220px;
+    }
+}
+@media (max-width: 345px){
+    .SerachSecton{
+        margin-top: -302px;
+    }
+}

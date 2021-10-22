@@ -1,0 +1,46 @@
+.BookForm{
+    padding: 0px 15px 20px 15px;
+}
+.FormLabel{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+}
+.BookForm input:focus{
+    border: 1px solid #000;
+}
+.ErrorMsg{
+    color: rgba(255,0,0);
+    text-align: left;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.UserHomeButton{
+    display: block;
+    width: 150px;
+    margin-bottom: 5px;
+    background: #1f92a2;
+    outline: none;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.UserHomeButton:hover{
+    background: #1c6d7b;
+    text-decoration: none;
+}
+.UserHomeButton:disabled{
+    background-color: #a6afb1;
+    cursor: not-allowed;
+    
+}
+@media (max-width: 468px){
+   .BookForm{
+    padding: 0px 0px 20px 0px;
+}
+}

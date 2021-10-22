@@ -1,0 +1,27 @@
+.InstituteHead{
+   
+    width: 75%;
+    position: fixed;
+    overflow: hidden;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+.HeadPosition{
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+    height: 85px !important;
+     box-shadow: 0 1px 1px rgb(0 0 0 / 1%), 0 10px 30px rgb(0 0 0 / 8%) !important;
+}
+.SignInCaptn{
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 0px !important;
+   
+
+}

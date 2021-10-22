@@ -1,0 +1,403 @@
+.HomeBgColor{
+    background-color: #16d1c8;
+    height: 120px;
+   }
+.Main{
+    margin-top: 80px;
+}
+.DoctorAllign{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.Doctor{
+    padding: 50px 150px 5px 150px;
+}
+.HosCardBody{
+    min-height: 270px;
+    padding: 0px 15px 0px 15px;
+}
+.DocCardBody{
+    min-height: 190px;
+    padding: 0px 15px 0px 15px;
+
+}
+.Doctor h3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Poppins-medium;
+    margin-bottom: 0px;
+    color: #4b424d;
+}
+.Doctor p{
+    font-size: 16px;
+    color: #9ba292;
+   margin-top: -15px;
+   margin-bottom: 20px;
+}
+.ButtonHomePad{
+    margin-right: 18px !important;
+}
+.UserHomeButton{
+    display: block;
+    width: 150px;
+    margin-bottom: 5px;
+    background: #34d8ee;
+    outline: none;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.UserHomeButton:hover{
+    background: #51c9df;
+    text-decoration: none;
+}
+.Advt{
+    padding: 10px 165px 50px 150px;
+}
+.MobSlideImg{
+    padding: 0px 20px;
+}
+.AdvtImag{
+    border-radius: 10px;
+    width: 100%;
+}
+.ImageSlider{
+    width: 100%;
+}
+.AdvtSlideImg{
+     padding: 0px 0px;
+
+}
+.ServiceBg{
+    background-color: #faf5ff;
+    min-height: 300px;
+}
+.Services{
+    padding: 50px 150px 50px 150px;
+}
+.FindHospital{
+    background-color: #fff;
+    min-height: 500px;
+}
+.Hospitals{
+    padding: 25px 150px 50px 150px;
+
+}
+.Hospitals h3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Poppins-medium;
+    margin-bottom: 0px;
+    color: #4b424d;
+   
+}
+.HospitalAllign{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+.Hospitals p{
+    font-size: 16px;
+    color: #9ba292;
+   margin-top: -20px;
+   margin-bottom: 20px;
+}
+
+.wdt{  
+    width: 100%  !important;  
+    cursor: pointer;
+    
+}  
+.wdt img  {  
+    width: 100%; 
+    border-radius: 5px;
+    /* padding: 10px; */
+   
+}  
+.main{
+    padding: 20px !important;
+}
+
+
+@media (max-width: 980px){
+    .UserHomeButton{
+        padding: 8px;
+    }
+    .HomeButtonName{
+        font-size: 12px;
+    }
+    .UserHomeButton{
+        font-size: 12px;
+    }
+        .Doctor h3{
+            font-size: 17px;
+         }
+         .Doctor p{
+            font-size: 10px;
+            margin-top: -14px;
+        }
+           .Doctor{
+            padding: 10px 0px 10px 20px;
+        }
+        .Doctor p{
+          margin-bottom: 10px;
+        }
+        .Main{
+            margin-top: 40px;
+        }
+        .Footer{
+            display: none;
+        }
+        .Hospitals h3{
+            font-size: 17px;
+         }
+         .Hospitals p{
+            font-size: 10px;
+            margin-top: -20px;
+            margin-bottom: 10px;
+        }
+           .Hospitals{
+            padding: 10px 5px 10px 20px;
+        }
+        .Services{
+            padding: 0px 120px 20px 120px;
+        }
+        .Advt{
+            padding: 0px 20px 30px 20px;
+        }
+    }
+    @media (min-width: 767px){
+        .HomeBgColor{
+            background-color: #0DCD9D;
+            height: 0px;
+        }
+    }
+ @media (max-width: 700px){
+            .Doctor p{
+                font-size: 10px;
+                margin-top: -15px;
+            }
+            .Doctor{
+                padding: 10px 10px 10px 20px;
+            }
+            .UserHomeButton{
+                padding: 8px;
+                width: 125px !important;
+                font-size: 10px;
+               }
+               
+}
+@media  (max-width: 600px){
+    .containers{
+       padding-left: 13px;
+       padding-right: 13px;
+    }
+    .wdt img {  
+        height: 150px !important;
+        border-radius: 20px;
+    }
+    .Advt{
+        padding: 0px 10px 30px 10px;
+    } 
+
+}
+@media (max-width: 518px){
+    .UserHomeButton{
+        font-size: 8px;
+        padding: 6px !important;
+        padding: 3px;
+        width: 80px !important;
+    }
+}
+@media (max-width: 500px){
+        .Doctor p{
+            margin-top: 2px;
+        }
+        .Doctor h3{
+            font-size: 15px;
+        }
+        .Main{
+            margin-top: 40px;
+        }
+}
+@media (max-width: 450px){
+        .Doctor p{
+             margin-top: -6px;
+            font-size: 7px;
+        }
+        .Doctor h3{
+            font-size: 15px;
+        }
+        .Main{
+            margin-top: 40px;
+        }
+        .Doctor h3{
+            font-size: 14px;
+        }
+        .ButtonHomePad{
+            margin-right: 1px !important;
+        }
+        .UserHomeButton{
+            padding: 2px;
+            width: 70px !important;
+            border-radius: 15px;
+            font-size: 7px;
+            padding: 6px !important;
+            margin-right: 12px;
+        }
+}
+@media (max-width: 340px){
+        .Doctor p{
+            margin-top: -0px;
+            font-size: 7px;
+        }
+        .Doctor h3{
+            font-size: 15px;
+        }
+        .Main{
+            margin-top: 40px;
+        }
+        .Doctor h3{
+            font-size: 14px;
+        }
+        .ButtonHomePad{
+            margin-right: 1px !important;
+        }
+}
+
+@media (min-width: 768px) {
+    .MobSlideImg{
+    padding: 0px 0px;
+}
+}
+@media (max-width: 767px) {
+    
+    .ImageSlider{
+        border-radius: 20px;
+    }
+}
+
+
+@media (max-width: 980px){
+    .Services{
+        padding: 20px 120px 20px 120px;
+    }
+    .ServiceBg{
+       min-height: 300px;
+    }
+}
+
+@media (max-width: 768px){
+    .Services{
+        padding: 0px 70px 20px 70px;
+    }
+    .Hospitals p{
+        font-size: 10px;
+        margin-top: -15px;
+    }
+  
+}
+@media (max-width: 500px){
+    .Services{
+        padding: 0px 50px 20px 50px;
+    }
+    .Hospitals p{
+        margin-top: -10px;
+    }
+    .Hospitals h3{
+        font-size: 15px;
+    }
+   
+}
+@media (max-width: 450px){
+    .Hospitals p{
+         margin-top: -10px;
+        font-size: 7px;
+    }
+    .Hospitals h3{
+        font-size: 15px;
+    }
+  .Hospitals h3{
+        font-size: 14px;
+    }
+    .ButtonHomePad{
+        margin-right: 1px !important;
+    }
+}
+@media (max-width: 350px){
+    .Services{
+        padding: 0px 40px 20px 40px;
+    }
+}
+@media (max-width: 340px){
+    .Hospitals p{
+        margin-top: -0px;
+        font-size: 7px;
+    }
+    .Hospitals h3{
+        font-size: 15px;
+    }
+   
+    .Hospitals h3{
+        font-size: 14px;
+    }
+    .ButtonHomePad{
+        margin-right: 1px !important;
+    }
+}
+@media (max-width: 1216px){
+    .HosCardBody{
+        min-height: 260px;
+        padding: 0px 15px 0px 15px;
+    }
+    .DocCardBody{
+        min-height: 200px;
+        padding: 0px 15px 0px 15px;
+    }
+ }
+@media (max-width: 980px){
+  .HosCardBody{
+        min-height: 265px;
+        padding: 0px 45px 0px 45px;
+    }
+    .DocCardBody{
+        min-height: 225px;
+        padding: 0px 45px 0px 45px;
+    }
+ }
+@media (max-width: 700px){
+.HosCardBody{
+        min-height: 280px;
+        padding: 0px 25px 0px 25px;
+    }
+    .DocCardBody{
+        min-height: 230px;
+        padding: 0px 25px 0px 25px;
+    }
+}
+
+@media (max-width: 535px){
+ .HosCardBody{
+        min-height: 250px;
+        padding: 0px 15px 0px 15px;
+    }
+    .DocCardBody{
+        min-height: 223px;
+        padding: 0px 15px 0px 15px;
+    }
+   
+}
+@media (max-width: 300px){
+.ServiceBg{
+    background-color: #f7f6f8;
+    min-height: 260px;
+}
+}
+
+
+

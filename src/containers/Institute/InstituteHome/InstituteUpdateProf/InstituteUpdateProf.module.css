@@ -1,0 +1,56 @@
+.MainHead{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(55, 129, 208);
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.FormGroup{
+    margin-bottom: 10px;
+}
+.FormPad{
+    padding: 20px 30px;
+}
+.InputLabel{
+    font-size: 14px;
+}
+.ImgOutLine{
+    width:100%;
+    height:250px;
+    border: 2px solid rgb(157, 150, 150);
+}
+.uploadCap{
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+.UpdateBtn{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #1a7ff2;
+    margin-top: 20px;
+    border: none;
+    margin-left: 15px;
+    color:#fff
+}
+.UpdateBtn:hover{
+    background: #004dda;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+}
+.UploadBtn{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1a7ff2;
+    margin-top: 20px;
+    border: none;
+     color:#fff
+
+}
+.ErrorMsg{
+    color: rgba(255,0,0);
+    text-align: left;
+    font-size: 14px;
+}

@@ -1,0 +1,13 @@
+.ProfDetList{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+}
+.ProfDetListDet{
+    text-align: right;
+    font-size: 14px;
+    color: black;
+    margin-right: 10px;
+
+}

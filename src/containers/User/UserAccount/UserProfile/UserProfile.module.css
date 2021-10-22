@@ -1,0 +1,51 @@
+.ProfDet h5{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.EditBtn{
+    width: 130px;
+    height: 50px;
+    outline: none;
+    color: #fff;
+    background-color: rgb(99, 186, 192);
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    float: right;
+}
+.BtnAlign{
+    margin-top: 30px;
+}
+.UserProfDet{
+    margin-left: 10px;
+    font-size: 13px;
+}
+@media (max-width: 480px) {
+    .ProfDet h5{
+        font-size: 13px;
+        margin-top: 16px;
+    }
+    .EditBtn{
+        width: 120px;
+        height: 50px;
+        font-size: 12px;
+       
+    }
+}
+@media (max-width: 480px) {
+    .ProfDet h5{
+        font-size: 12px;
+        margin-top: 16px;
+    }
+    .EditBtn{
+        width: 110px;
+        height: 40px;
+        font-size: 10px;
+       
+    }
+}
+@media (max-width: 980px) {
+   .Footer{
+       display: none;
+   }
+}

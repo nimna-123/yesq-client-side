@@ -1,0 +1,17 @@
+.InputPad{
+    margin-bottom: 30px;
+       
+}
+.ErrorMsg{
+        color: rgba(255,0,0);
+        text-align: left;
+        font-size: 14px;
+}
+.ServerErrorMsg{
+    color: rgba(255,0,0);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,291 @@
+.Box{
+   box-shadow: 0px 0px 30px 0px rgb(234, 241, 255);
+    border: none;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.card{
+    border: none !important;
+}
+.HosCardBody{
+    min-height: 230px;
+    padding: 0px 15px 0px 15px;
+}
+.HosTitle{
+    font-size: 19px !important;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px !important;
+    padding-top: 17px;
+    color: rgb(67, 141, 125);
+}
+.HosSubTitle{
+    font-size: 13px !important;
+    text-align: center;
+    margin-bottom: 10px !important;
+    margin-top: 5px !important;
+    padding:5px 15px 5px 5px;
+}
+.CardHead{
+    text-align: justify;
+    font-size: 14px;
+    color: rgb(95, 92, 92);
+}
+.IconImg{
+    width: 16px;
+    height: 16px;
+}
+
+.UserHomeCall{
+    display: block;
+    width: 125px;
+    margin-bottom: 5px;
+    background: #34d8ee;
+    outline: none;
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+.UserHomeCall:hover{
+    background: rgb(61, 198, 233);
+    text-decoration: none;
+}
+.UserHomeBook{
+    display: block;
+    width: 115px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    outline: none;
+    padding: 8px;
+    border-radius: 25px;
+    border: 2px solid #34d8ee;
+    color: #34d8ee;
+    
+
+}
+.UserHomeBook:hover{
+    background: #fbfdff;
+    text-decoration: none;
+    border: 2px solid rgb(16, 165, 202);
+}
+.UserHomeBtnAlign{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 45px 10px 45px;
+}
+.HospitalCard{
+    border-radius: 10px !important;
+}
+.InstImage{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    height: 180px;
+}
+.UserBtnCall:hover{
+    color: #fff;
+    text-decoration: none;
+}
+@media (max-width: 1216px){
+    .HosCardBody{
+        min-height: 260px;
+        padding: 0px 15px 0px 15px;
+    }
+    .CardHead{
+       
+        font-size: 9px;
+     }
+     .HosTitle{
+        font-size: 16px !important;
+      padding-top: 15px;
+        color: rgb(67, 141, 125);
+    }
+    .HosSubTitle{
+        border:1px solid rgba(0,0,0,.125) !important;
+        padding:  13px;
+    }
+    .IconImg{
+        width: 12px;
+        height: 13px;
+        margin-top: -10px;
+    }
+  
+   
+    
+    }
+@media (max-width: 980px){
+    .UserHomeCall
+    {
+        font-size: 12px;
+    }
+    .UserHomeBook{
+        font-size: 12px;
+    }
+    .CardHead{
+       
+        font-size: 15px;
+    }
+    .IconImg{
+        width: 13px;
+        height: 13px;
+    }
+    .HosTitle{
+        font-size: 20px !important;
+      padding-top: 15px;
+      padding-bottom: 10px;
+        color: rgb(67, 141, 125);
+    }
+    .HosCardBody{
+        min-height: 295px;
+        padding: 0px 45px 0px 45px;
+    }
+    .HosSubTitle{
+        font-size: 15px !important;
+        text-align: center;
+        margin-bottom: 10px !important;
+       
+    }
+    .HosSubTitle{
+        border:1px solid rgba(0,0,0,.125) !important;
+        padding:  13px;
+    }
+
+}
+@media (max-width: 700px){
+    .UserHomeCall
+    {
+        font-size: 10px;
+    }
+    .UserHomeBook{
+        font-size: 10px;
+    }
+    .CardHead{
+       font-size: 15px;
+    }
+    .IconImg{
+        width: 11px;
+        height: 11px;
+    }
+    .HosCardBody{
+        min-height: 310px;
+        padding: 0px 25px 0px 25px;
+    }
+}
+
+@media (max-width: 535px){
+  .UserHomeCall{
+        font-size: 12px;
+    }
+    .IconImg{
+        width: 11px;
+        height: 11px;
+        margin-top: -12px;
+    }
+    .HosTitle{
+        font-size: 15px !important;
+      padding-top: 10px;
+      padding-bottom: 10px;
+       
+    }
+    .CardHead{
+       font-size: 10px;
+       
+    }
+    .HosCardBody{
+        min-height: 270px;
+        padding: 0px 15px 0px 15px;
+    }
+    .InstImage{
+       
+        height: 140px;
+    }
+    .HosSubTitle{
+        border:1px solid rgba(0,0,0,.125) !important;
+        padding:  13px;
+    }
+}
+@media (max-width: 518px){
+    .UserBtnCall{
+          font-size: 12px;
+          }
+          .UserHomeCall{
+              display: block;
+              width: 100px;
+             padding: 8px;
+          }
+          .IconImg{
+              width: 11px;
+              height: 11px;
+              margin-top: -13px;
+          }
+          .UserHomeBook{
+            font-size: 12px;
+            }
+        .UserHomeBook{
+            width: 100px;
+              padding: 5px;
+               
+        }
+  }
+
+
+
+@media (max-width: 450px){
+  .UserBtnBook{
+        font-size: 12px;
+    }
+    .CardHead{
+       font-size: 10px;
+        margin-top: 9px;
+    }
+    .UserHomeBtnAlign{
+        padding: 0px 30px 10px 30px;
+     }
+}
+@media (max-width: 442px){
+    
+      .CardHead{
+         font-size: 8px;
+          margin-top: 0px;
+      }
+      .InstImage{
+       height: 120px;
+    }
+    .HosTitle{
+        font-size: 12px !important;
+        padding-top: 8px;
+        padding-bottom: 5px;
+     }
+     
+  }
+
+  @media (max-width: 885px){
+    .UserHomeBtnAlign{
+        padding: 0px 0px 10px 0px;
+     }
+    }
+
+
+
+ @media (max-width: 574px){
+    .UserHomeBtnAlign{
+        padding: 0px 62px 10px 62px;
+     }
+  
+  }
+  @media (max-width: 459px){
+    .UserHomeBtnAlign{
+        padding: 0px 15px 10px 15px;
+     }
+  
+  }
+
+
+   

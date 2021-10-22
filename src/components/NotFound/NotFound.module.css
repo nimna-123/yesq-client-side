@@ -1,0 +1,21 @@
+.Page {
+  width: 100%;
+  background-color: #f9fafc;
+  height: 100vh;
+}
+.NotFoundCaptn {
+  text-align: center;
+  color: #1b2c57;
+  font-weight: 600;
+  font-size: 58px;
+}
+@media (max-width: 612px) {
+  .NotFoundImg {
+    display: none;
+  }
+  .NotFoundCaptn {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 28px;
+  }
+}

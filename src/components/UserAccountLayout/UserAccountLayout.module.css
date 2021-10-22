@@ -1,0 +1,88 @@
+.BgColor{
+    background-color: rgb(242, 241, 241);
+    width: 100%;
+    min-height: 600px;
+}
+.MainPad{
+    margin-top: 80px !important;
+    display: flex;
+    justify-content: center;
+}
+.UserAccnt{
+    width: 100%;
+    min-height: 350px;
+    background-color: rgb(99, 186, 192);
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.UserAcntDetailHead h3{
+    color: rgb(82, 79, 79);
+    font-size: 23px;
+}
+.UserAcntDetailHead{
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+.UserAccntDetail{
+    width: 100%;
+    min-height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 25px;
+    margin-bottom: 25px;
+    
+
+}
+.UserAccntHead{
+    color: #fff;
+    font-size:23px;
+    font-weight: 500;
+
+}
+.ProfileListItem{
+    margin-left: 15px;
+}
+.ProfListItems li{
+    list-style: none;
+    font-size: 16px;
+   
+    padding-bottom: 10px;
+ }
+ .UserProfNav{
+    color: #fff;
+    font-size: 16px !important;
+    text-decoration: none;
+
+ }
+ .UserProfNav:hover{
+     color:#fff;
+     text-decoration: none;
+ }
+@media (max-width: 980px){
+     .MainPad{
+            margin-top: 23px!important;
+    }
+    .FooterBottom{
+        display: none;
+    }
+ 
+}
+@media (max-width: 500px){
+    .MainPad{
+           margin-top: 23px!important;
+   }
+   .UserAcntDetailHead h3{
+       color: rgb(82, 79, 79);
+       font-size: 20px;
+   }
+   .UserAccntHead{
+      font-size:20px;
+   }
+   .ProfListItems li{
+       
+       font-size: 14px;
+       
+    
+   }
+}

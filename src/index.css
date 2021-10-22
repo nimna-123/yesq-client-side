@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+   font-family: Poppins-regular; 
+   font-size: 0.875rem;
+   line-height: 1.6;
+   color: #555;
+ 
+}
+
+@font-face {
+  font-family: 'Poppins-medium';
+  src: local('MyFont'), url(./assets//fonts/Poppins-Medium.ttf) format('woff');
+}
+@font-face {
+  font-family: 'Poppins-regular';
+  src: local('MyFont'), url(./assets//fonts/Poppins-Regular.ttf) format('woff');
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* input::placeholder { 
+  color: #000;
+  opacity: 0.5;
+  font-size: 13px; 
+} */
+::-webkit-input-placeholder{
+  color: #000;
+  opacity: 0.5;
+  font-size: 13px; 
+  
+}
+
+
+
+
+.nopadmar{
+  padding: 0px;
+  margin: 0px;
+}
+.nopadleft{
+  padding-left: 0px;
+}
+.HosNopadleft{
+  padding-left: 0px;
+
+}
+.nopadright{
+  padding-right: 0px;
+}
+.nopad{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.rowpad{
+  padding-bottom: 5px;
+}
+.rowmar{
+  margin-top: 10px;
+}
+.SearchFieldLoctn{
+  height:37px;
+  padding:12px 20px 12px 40px;
+  border-radius: 2px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  background-image: url(./assets/images/locationIconn.png);
+  background-position: 10px 6px; 
+  background-repeat: no-repeat;
+  font-size: 12px;
+  width: 300px;
+  position: relative;
+ 
+}
+.SearchFieldLoctn:focus{
+  border: 1.5px solid rgb(95, 230, 248);
+}
+.rowmarprof{
+  margin-top: 20px;
+}
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #47ccde ;
+    border-color: #47ccde ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #47ccde ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #47ccde ;
+    border-color: #47ccde;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #47ccde
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+  .NoResults{
+    font-size: 20px; 
+    text-align: center;
+    margin-top: 14px;
+}
+/* hospital list */
+@media(max-width:760px){
+  .nopadleft{
+    padding-left: 15px;
+  }
+}
+@media(max-width:500px){
+  ::-webkit-input-placeholder{
+    color: rgb(14, 13, 13);
+    opacity: 0.5;
+    font-size: 10px; 
+    
+  }
+}
+
+@media(max-width:477px){
+  .pagination {
+    margin: 0px !important;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > li > a{
+    border: 1px solid #47ccde ;
+    padding: 5px 5px;
+    outline: none;
+    cursor: pointer;
+  }
+}
+@media (max-width: 468px){
+  .NoResults{
+     font-size: 20px; 
+     text-align: center;
+     margin-top: 12px;
+ }
+ 
+ }
+@media(max-width:339px){
+  
+  .pagination > li > a{
+    border: 1px solid #47ccde ;
+    padding: 5px 3px;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+ 

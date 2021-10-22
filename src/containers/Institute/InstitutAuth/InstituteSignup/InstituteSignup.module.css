@@ -1,0 +1,24 @@
+.InputSuggestion{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 45px;
+    background-color:#fff ;
+    border-bottom: 1px black dotted;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+   
+    color: rgb(65, 65, 65);
+}
+.AutocompleteDropdownContainer{
+   font-size: 15px;
+   background-color:rgb(244, 244, 244);
+}
+.ListPad{
+    margin-left: 10px;
+}
+.IconStyle{
+    color: black;
+    size: 25px;
+}
+

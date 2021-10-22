@@ -1,0 +1,34 @@
+.FormPad{
+    padding: 20px 50px;
+}
+.BtnStyle{
+        width: 130px;
+        height: 45px;
+        border: none;
+        border-radius: 8px;
+        background-color:rgb(99, 186, 192);
+        color: #fff;
+}
+.SerErrorMsg{
+    color: rgba(255,0,0);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+
+}
+.ErrorMsg{
+    color: rgba(255,0,0);
+    text-align: left;
+    font-size: 14px;
+    margin-top: 7px;
+}
+@media (max-width: 500px){
+    .FormPad{
+        padding: 20px;
+    }
+ }
+ @media (max-width: 980px){
+    .Footer{
+        display: none;
+    }
+ }

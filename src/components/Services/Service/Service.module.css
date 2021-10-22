@@ -1,0 +1,147 @@
+.Service{
+   border-radius: 16px;
+    box-shadow: 0px 0px 30px 0px rgb(233, 239, 250);
+    border: none;
+    height: 135px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+   
+   
+}
+.ServiceMarg{
+    padding-top: 35px;
+}
+.ServiceImg{
+    padding-top: 15px;
+    width: 70px;
+    height: 70px;
+}
+.ServiceBgc{
+    background-color: rgb(102, 173, 240);
+    height: 34px;
+    margin-top: 31px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.ServiceBgc:hover{
+    background-color: rgb(56, 145, 228);
+  
+}
+.ServiceBgc h3{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+}
+@media (max-width: 1400px){
+    .ServiceBgc h3{
+       font-size: 12px;
+        padding-top: 10px;
+    }
+    .ServiceBgc{
+       height: 45px;
+    }
+}
+@media (max-width: 768px){
+    .ServiceBgc h3{
+       font-size: 12px;
+        padding-top: 10px;
+    }
+    .ServiceImg{
+        padding-top: 15px;
+        width: 60px;
+        height: 70px;
+    }
+   
+}
+@media (max-width: 513px){
+    .ServiceImg{
+        padding-top: 15px;
+        width: 60px;
+        height: 60px;
+    }
+    .Service{
+        border-radius: 10px;
+    }
+    .ServiceBgc{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .ServiceBgc h3{
+       font-size: 10px;
+        padding-top: 5px;
+    }
+    .ServiceBgc{
+        height: 25px;
+        margin-top: 15px;
+    }
+    .Service{
+      height: 100px;
+    }
+}
+@media (max-width: 468px){
+    .ServiceImg{
+        padding-top: 15px;
+        width: 60px;
+        height: 60px;
+    }
+    .ServiceBgc h3{
+       font-size: 10px;
+        padding-top: 7px;
+    }
+    .ServiceBgc{
+        height: 25px;
+        margin-top: 15px;
+    }
+    .Service{
+     height: 89px;
+    }
+}
+@media (max-width: 468px){
+    .ServiceImg{
+        padding-top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    .ServiceBgc h3{
+       font-size: 8px;
+        padding-top: 7px;
+    }
+    .ServiceBgc{
+        height: 25px;
+        margin-top: 15px;
+    }
+   
+}
+@media (max-width: 300px){
+    .ServiceImg{
+        padding-top: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    .ServiceBgc h3{
+       font-size: 8px;
+        padding-top: 7px;
+    }
+    .ServiceBgc{
+        height: 25px;
+        margin-top: 15px;
+    }
+    .Service{
+        height: 78px;
+    }
+   
+}
+@media (max-width: 980px){
+    .ServiceMarg{
+        padding-top: 40px;
+    }
+
+}
+@media (max-width: 300px){
+    .ServiceMarg{
+        padding-top: 35px;
+    }
+
+}
+

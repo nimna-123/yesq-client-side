@@ -1,0 +1,140 @@
+.TokenList li{
+    display: inline;
+    font-size: 16px;
+    margin-left: 15px;
+  
+
+}
+.TokenList{
+    margin-top: 10px!important;
+}
+.Active{
+    border-bottom: 2px solid #000;
+    text-decoration: none;
+    color:rgb(89, 85, 85);
+}
+.Active:hover{
+    text-decoration: none;
+    color:rgb(89, 85, 85);
+}
+.NavLinks{
+    color:rgb(89, 85, 85);
+    text-decoration: none;
+}
+.NavLinks:hover{
+    color:rgb(89, 85, 85);
+    text-decoration: none;
+}
+.TokenLayout{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid rgb(45, 119, 141);
+}
+.TopHead{
+    background-color: rgb(98, 166, 170);;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.TopHead h3{
+    color: #fff;
+    font-size: 19px;
+    padding: 8px 15px;
+}
+.TokenDet{
+    padding: 10px;
+    
+}
+.TokenDet h6{
+    margin: 0px;
+    font-size: 16px;
+    color: #000;
+
+}
+.PaginationPad{
+    margin-top: 21px;
+}
+.CancelBtn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(209, 45, 45);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+.BookedStatus h3{
+    color: rgb(71, 158, 71);
+    font-size: 22px;
+    font-weight: 600;
+  
+
+}
+.NoResults{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 15px;
+}
+@media (max-width: 980px){
+    .Footer{
+        display: none;
+    }
+ 
+ }
+ @media (max-width: 415px){
+    .Footer{
+        display: none;
+    }
+    .TopHead h3{
+         font-size: 16px;
+        padding: 8px 10px;
+    }
+    .TokenDet h6{
+        margin: 0px;
+        font-size: 14px;
+    }
+    .BookedStatus h3{
+        color: rgb(71, 158, 71);;
+        font-size: 15px;
+    }
+    .CancelBtn{
+        width: 80px;
+        height: 35px;
+        background-color: rgb(209, 45, 45);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        margin-top: 30px;
+    }
+ 
+ }
+ @media (max-width: 348x){
+    .Footer{
+        display: none;
+    }
+    .TopHead h3{
+         font-size: 13px;
+        padding: 0px 5px;
+    }
+    .TokenDet h6{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .BookedStatus h3{
+        color: rgb(71, 158, 71);
+        font-size: 12px;
+       
+    }
+    .CancelBtn{
+        width: 70px;
+        height: 30px;
+        background-color: rgb(209, 45, 45);
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        margin-top: 30px;
+    }
+ 
+ }

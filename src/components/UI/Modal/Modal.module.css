@@ -1,0 +1,14 @@
+.CloseBtn{
+    background-color: rgb(59, 170, 128);
+    width: 100px;
+    height: 50px;
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+}
+.CloseBtn:hover{
+    background-color: rgb(26, 151, 103);
+}
+.ModalHeader{
+    background-color:  rgb(136, 226, 199);
+}

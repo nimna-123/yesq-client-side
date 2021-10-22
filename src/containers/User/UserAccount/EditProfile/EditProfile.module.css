@@ -1,0 +1,35 @@
+.FormLabel{
+    font-size: 16px;
+}
+.EditForm{
+    padding: 20px 0px 20px 0px;
+}
+.EditBtn{
+    width: 130px;
+    height: 45px;
+    border:none;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 15px;
+    background-color: rgb(99, 186, 192);
+    margin-top: 10px;
+}
+.ErrorMsg{
+    color: rgba(255,0,0);
+    text-align: left;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+@media (max-width: 980px){
+   .FooterBootom{
+       display: none;
+   }
+
+}
+@media (max-width: 980px){
+    .FormLabel{
+        font-size: 14px;
+    }
+ 
+ }
+ 

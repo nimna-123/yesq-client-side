@@ -1,0 +1,31 @@
+.CloseBtn{
+    background-color: rgb(255, 49, 49);
+    width: 100px;
+    height: 50px;
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+}
+.CloseBtn:hover{
+    background-color: rgb(220, 37, 37);
+}
+.ModalHeader{
+    background-color:  rgb(136, 226, 199);
+}
+.ConfirmBtn{
+    background-color: rgb(59, 170, 128);
+    width: 100px;
+    height: 50px;
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+
+}
+.ConfirmBtn:hover{
+    background-color: rgb(26, 151, 103);
+
+}
+.ModalTitle{
+    font-size: 22px;
+    color:rgb(25, 23, 28)
+}

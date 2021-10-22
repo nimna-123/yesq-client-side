@@ -1,0 +1,23 @@
+.MainPad{
+    padding-top: 180px;
+}
+.ErrorMsg{
+    color: rgba(255,0,0);
+    
+  text-align: left;
+  font-size: 14px;
+}
+
+.InputLabel{
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #000;
+}
+.FormGroup{
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 990px){
+    .MainPad{
+        padding-top: 0px;
+    } 
+}

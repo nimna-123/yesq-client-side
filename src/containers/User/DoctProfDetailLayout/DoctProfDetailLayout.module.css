@@ -1,0 +1,143 @@
+.HosProf{
+    width:100%;
+    padding: 20px;
+ }
+ .Search{
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ .Search input{
+     width: 500px;
+     height: 40px;
+     border: 1px solid rgb(197, 194, 194);
+     border-radius: 5px;
+     padding-left: 40px;
+     font-size: 14px;
+     margin-top: 20px;
+ }
+ .HosDetails{
+     border: 1px solid rgb(162, 167, 229);
+     padding: 45px;
+ }
+ .DoctImg img{
+     border-radius: 50%;
+ }
+ .HosDetails h2{
+     color: rgb(66, 61, 61);
+     text-align: center;
+     font-size: 26px;
+     margin-top: 18px;
+     font-weight: 600;
+
+     }
+ .HosDetails p{
+     color: rgb(51, 46, 46);
+     text-align: center;
+     font-size: 16px;
+ }
+     .ProdPad{
+         margin-top: 7px;
+        margin-left: 10px; 
+ }
+ .ProfDeatail{
+     font-size: 18px;
+     margin-top: 0px;
+     line-height: 18px;
+     text-align: center;
+    }
+    .ProfDeatailSpl{
+        font-size: 12px;
+     margin-top: 0px;
+     line-height: 18px;
+     text-align: center;
+     color: rgb(63, 61, 61);
+
+    }
+
+ .Services{
+     width: 100%;
+     min-height: 430px;
+     background-color: #fff;
+     padding: 10px;
+ }
+ .Counters{
+     padding: 15px;
+ }
+ @media (max-width: 1300px){
+  
+ }
+ @media (max-width: 980px){
+ 
+ .HosProf{
+   padding: 20px
+ 
+ }
+ .HosDetails h2{
+    font-size: 17px;
+     margin-top: 15px;
+ }
+
+ .HosDetails p{
+   font-size: 14px;
+ }
+ .ProfDeatail{
+     font-size: 15px;
+     line-height: 16px;
+ }
+
+ .HosDetails{
+     padding: 10px;
+     
+ }
+ .DetailPad{
+     padding:5px 5px 15px 22px;
+ }
+ .Services{
+  
+     padding: 0px;
+ }
+ }
+ @media (max-width: 835px){
+     
+ .HosDetails{
+         padding: 0px;
+ }
+ .IconImg{
+     width: 15px;
+     height: 15px;
+     margin-left: 5px;
+ }
+ .ProfDeatail{
+     font-size: 15px;
+    line-height: 15px;
+    padding-top: 0px;
+ }
+
+ }
+ @media (max-width: 595px){
+ 
+
+ .DetailPad{
+     padding:5px 20px 15px 20px;
+ }
+ .HosProf{
+     padding: 0px;
+  }
+  .HosDetails h2{
+     font-size: 20px;
+      margin-top: 15px;
+      margin-bottom: 0px;
+  }
+ }
+ 
+ @media (max-width: 980px){
+     .Services{
+         width: 100%;
+         min-height: 100px;
+         background-color: #fff;
+     }
+   
+ }

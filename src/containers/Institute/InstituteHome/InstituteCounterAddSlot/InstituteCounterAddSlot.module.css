@@ -1,0 +1,23 @@
+.CounterSlotPad{ padding: 30px 150px 80px 40px;
+   
+}
+.FormPad{
+    padding: 20px 1px;
+}
+.InputLabel{
+    font-weight: '590';
+     margin-bottom: 3px;
+     color: #555;
+ }
+ .FormGroup{
+    margin-bottom: 30px;
+}
+.SlotTime{
+    font-size: 12px
+}
+.ErrorMsg{
+    color: rgba(255,0,0);
+    
+  text-align: left;
+  font-size: 14px;
+}

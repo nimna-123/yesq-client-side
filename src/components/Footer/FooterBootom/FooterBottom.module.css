@@ -1,0 +1,60 @@
+.FooterBottom{
+    background-color: #16d1c8;
+    min-height: 200px;
+}
+.FooterbtmPad{
+    padding-top: 40px;
+    
+}
+.FootLogo{
+    width: 170px;
+     height: 60px;
+     margin-left: 50px;
+}
+.footerBtmHead{
+    font-size: 13px;
+    color: #fff;
+    margin-top: 15px;
+    text-align: center;
+}
+.FooterContact{
+    color: #fff;
+    font-size: 16px;
+   margin-top: -15px;
+   margin-left: 20px;
+}
+.FooterBtm{
+    background-color: #fff;
+    min-height: 40px;
+    padding: 0px 150px 20px 150px;
+}
+.SocialIcons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 20px;
+}
+.SocialIcons p{
+    font-size: 12px;
+}
+.SocialIcons li{
+    display: inline;
+    list-style: none;
+    padding: 0px 5px;
+}
+.SocialIcon{
+    width: 30px;
+    height: 30px;
+    
+}
+.InstituteRegister{
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 60px;
+    color:#25837e;
+    font-size: 15px;
+}

@@ -1,0 +1,23 @@
+.ViewButton{
+    width: 80%;
+    height: 35px;
+    background-color: rgb(126, 40, 206);
+    color:#fff;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+
+}
+.CounterPad{
+    padding: 20px 20px 80px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.ButtonAlign ul{
+  display:flex;  
+  list-style:none;
+}
+.PaginationPad{
+  margin-top: 21px;
+}

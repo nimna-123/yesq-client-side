@@ -1,0 +1,47 @@
+.FooterTop{
+    background-color: rgb(231, 240, 255);
+    min-height: 100px;
+}
+.DiscrptnPad{
+    padding: 0px 150px 20px 150px;
+}
+.FooterImgPad{
+    padding: 75px
+}
+
+.FooterContnt h5{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 13px;
+    padding-top: 20px;
+}
+.FooterContnt{ 
+    padding: 75px
+}
+.FooterContnt p{
+   font-size: 14px;
+   line-height: 28px;
+   padding-top: 5px;
+   text-align: left;
+   margin: 0px !important;
+   padding: 0px !important;
+}
+.textIndent{
+    text-indent: 60px;
+}
+.FooterMiddle{
+    background-color: #fff;
+    min-height: 70px;
+}
+.FooterMiddleList li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+@media (max-width: 1100px) {
+    .DiscrptnPad{
+        padding: 0px 20px 20px 20px;
+    }
+}

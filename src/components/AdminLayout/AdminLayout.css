@@ -1,0 +1,144 @@
+.SideBox{
+    background-color: #2e51d0;
+    height: 100%;
+    position:fixed;
+    overflow: auto;
+    width: 300px;
+}
+.MainMarg{
+   margin-left: 300px;
+   width: 100%;
+}
+.AdminLogo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.OrgCaptionBg{
+ 
+    height: 40px;
+    background-color: #072277;
+}
+.OrgCaption{
+    color:#fbfbfb;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.OrgCaption:hover{
+    color:#fff;
+    text-decoration: none;
+}
+
+.multi-level, .Item ul, .Nav input[type="checkbox"] {
+    display: none;
+}
+#menu:checked ~ .multi-level, .Item input:checked ~ ul {
+    display: block;
+}
+
+/*Arrow*/
+
+.Arrow {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    float: right;
+    z-index: 0;
+    margin: 17px 1em 0 2em;
+}
+.Item input + .Arrow {
+    transform: rotate(-90deg);
+    transition: 0.1s;
+}
+.Item input:checked + .Arrow {
+    transform: rotate(0deg);
+    transition: 0.1s;
+}
+
+
+
+/*Styles*/
+ label:hover {
+    cursor: pointer;
+} 
+ label {
+    width: 100%;
+    display: block;
+    z-index: 3;
+    position: relative;
+} 
+.Nav {
+    width: 100%;
+   overflow-x: hidden;
+}
+.Nav li{
+ line-height: 40px;
+}
+.Nav li a {
+   margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+.MargLabel{
+     padding-left: 30px;
+     margin-bottom: 0px !important;
+     color: #fff;
+     line-height: 50px;
+     list-style: none;
+     text-decoration: none;
+    font-weight: 100;
+     width: 100%;
+}
+.MargSublabel{
+    padding-left: 55px;
+}
+ul{
+    margin: 0!important;
+    padding: 0px !important
+}
+.AdminlogoPad{
+    padding-left: 30px;
+}
+.Items label:hover{
+    background-color:rgb(192,192,192,0.2);
+}
+ .Nav ul li:hover{
+    background-color: rgb(192,192,192,0.3);
+}
+.LogoutButn{
+    float:right;
+    padding: 20px 50px;
+}
+.AdminBg{
+    background-color: #eef0f8;
+    min-height: 700px;
+    overflow: hidden;
+}
+.Headers {
+    background-color: #fff;
+    width:100%;
+    height: 67px;
+}
+.InstituteFooter{
+    width:'100%';
+  
+    background-color: #fff;
+}
+.InstituteFooter p{
+    text-align: center;
+    padding: 10px;
+}
+.MainCard{
+    width: 100%;
+    background-color: #fff;
+    min-height: 650px;
+    box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+    border-radius: 5px;
+}
+.CardPad{
+    padding: 30px 20px 30px 20px;
+}
+

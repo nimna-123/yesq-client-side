@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81558114.chunk.css",
+    "main.js": "/static/js/main.dfe0fc8b.chunk.js",
+    "main.js.map": "/static/js/main.dfe0fc8b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff14b732.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff14b732.js.map",
+    "static/css/2.7598a21b.chunk.css": "/static/css/2.7598a21b.chunk.css",
+    "static/js/2.8e984e6c.chunk.js": "/static/js/2.8e984e6c.chunk.js",
+    "static/js/2.8e984e6c.chunk.js.map": "/static/js/2.8e984e6c.chunk.js.map",
+    "static/js/3.76fb1395.chunk.js": "/static/js/3.76fb1395.chunk.js",
+    "static/js/3.76fb1395.chunk.js.map": "/static/js/3.76fb1395.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7598a21b.chunk.css.map": "/static/css/2.7598a21b.chunk.css.map",
+    "static/css/main.81558114.chunk.css.map": "/static/css/main.81558114.chunk.css.map",
+    "static/js/2.8e984e6c.chunk.js.LICENSE.txt": "/static/js/2.8e984e6c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/filterdInstitute.module.css": "/static/media/doctrBg.695a1f9f.JPG",
+    "static/media/landing.c37e74cd.svg": "/static/media/landing.c37e74cd.svg",
+    "static/media/notfound.ea509332.jpg": "/static/media/notfound.ea509332.jpg",
+    "static/media/ok.81768102.png": "/static/media/ok.81768102.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/yesqLogo.0388c406.png": "/static/media/yesqLogo.0388c406.png",
+    "static/media/yesqLogowhite.95b3fe70.png": "/static/media/yesqLogowhite.95b3fe70.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff14b732.js",
+    "static/css/2.7598a21b.chunk.css",
+    "static/js/2.8e984e6c.chunk.js",
+    "static/css/main.81558114.chunk.css",
+    "static/js/main.dfe0fc8b.chunk.js"
+  ]
+}

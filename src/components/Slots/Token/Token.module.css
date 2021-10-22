@@ -1,0 +1,72 @@
+.TokenPad{
+    padding: 10px 10px 10px 15px;
+}
+.TokenLayout{
+    border: 1px solid rgb(33, 114, 206);
+    width: 100%;
+    height: 40px;
+    padding: 8px 24px;
+}
+.TokenName{
+    color: #000;
+    font-size: 14px;
+   
+}
+@media (max-width: 785px){
+    .TokenName{
+        color: #000;
+        font-size: 13px;
+       
+    }
+    .TokenLayout{
+       
+        padding: 9px 4px;
+    }
+   
+}
+@media (max-width: 1025px){
+    .TokenName{
+        color: #000;
+        font-size: 13px;
+       
+    }
+    .TokenLayout{
+       
+        padding: 9px 4px;
+    }
+  
+}
+@media (max-width: 417px){
+    .TokenLayout{
+        padding: 8px 19px;
+    }
+  
+}
+@media (max-width: 385px){
+    .TokenLayout{
+       
+        padding: 8px 13px;
+    }
+}
+@media (max-width: 385px){
+    .TokenLayout{
+       
+        padding: 8px 6px;
+    }
+    .TokenName{
+        color: #000;
+        font-size: 12px;
+       
+    }
+}
+@media (max-width: 330px){
+    .TokenLayout{
+       
+        padding: 8px 3px;
+    }
+    .TokenName{
+        color: #000;
+        font-size: 12px;
+       
+    }
+}

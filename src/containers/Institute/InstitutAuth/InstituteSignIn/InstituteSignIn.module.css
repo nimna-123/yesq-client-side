@@ -1,0 +1,35 @@
+
+.InputPad{
+    margin-bottom: 30px;
+       
+}
+.ForgtPwsd{
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.ForgtPwsdLink{
+color: #3699ff;
+font-size: 13px;
+
+padding-top: 15px;
+
+}
+.ForgtPwsdLink:hover{
+    color: #3699ff;
+    text-decoration: none;
+    text-align: center;
+    }
+.ErrorMsg{
+    color: rgba(255,0,0);
+    text-align: left;
+    font-size: 14px;
+}
+.ServerErrorMsg{
+    color: rgba(255,0,0);
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}

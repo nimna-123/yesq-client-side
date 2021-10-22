@@ -1,0 +1,87 @@
+.CloseBtn{
+    background-color: rgb(233, 56, 50);
+    width: 100px;
+    height: 40px;
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+}
+.CloseBtn:hover{
+    background-color: rgb(221, 52, 52);
+}
+.ModalHeader{
+    background-color:  rgb(130, 191, 173);
+    color: #fff;
+   
+}
+.SaveBtn{
+    background-color: rgb(59, 170, 128);
+    width: 80px;
+    height: 38px;
+    color:#fff;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+.SaveBtn:hover{
+    background-color: rgb(16, 123, 69);
+}
+.Title{
+    font-size: 19px;
+}
+.FormInput{
+    border-radius: 5px;
+    border: 1px solid rgb(169, 162, 162)  !important;
+    height:38px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.FormLabel{
+    font-size: 14px !important;
+    margin-top: 15px;
+
+}
+.InputSuggestion{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 45px;
+    background-color:#fff ;
+    border-bottom: 1px black dotted;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+   
+    color: rgb(65, 65, 65);
+}
+.AutocompleteDropdownContainer{
+   font-size: 15px;
+   background-color:rgb(244, 244, 244);
+}
+.ListPad{
+    margin-left: 10px;
+}
+.ErrorMsg{
+    color: rgba(255,0,0);
+    text-align: left;
+    font-size: 14px;
+}
+@media(max-width:500px){
+    .InputSuggestion{
+       width: 100%;
+        height: 38px;
+        font-size: 8px;
+       
+    }
+    
+  }
+  @media(max-width:400px){
+    
+    .FormLabel{
+        font-size: 12px !important;
+        margin-top: 10px;
+    
+    }
+  }
+  

@@ -1,0 +1,26 @@
+.ProfessinalPad{
+    padding: 40px 30px;
+}
+.FormGroup{
+    margin-bottom: 10px;
+}
+.FormPad{
+    padding: 20px 1px;
+}
+.InputLabel{
+    font-size: 14px;
+}
+.InputProfile{
+    font-weight: 600;
+    font-size: 15px;
+}
+.FormGroupRemark{
+    margin-bottom: 35px;
+}
+.ErrorMsg{
+    color: rgba(255,0,0);
+    
+  text-align: left;
+  font-size: 14px;
+  margin-top: 5px;
+}

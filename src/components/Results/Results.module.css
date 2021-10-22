@@ -1,0 +1,36 @@
+.Card{
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px 0px rgba(217,230,255);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.CardBody{
+    padding: 0px 15px 0px 15px;
+    min-height: 150px;
+}
+
+.Title{
+    font-size: 24px !important;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px !important;
+    color: #fff;
+    padding-top: 20px;
+   
+    ;
+}
+.Box{
+    width: 25%;
+    height: auto;
+    padding: 20px 20px 20px 0px;
+}
+.SubTitle{
+    font-size: 22px !important;
+    text-align: center;
+    margin-bottom: 10px !important;
+    margin-top: 1px !important;
+    color:#fff;
+}
+
+

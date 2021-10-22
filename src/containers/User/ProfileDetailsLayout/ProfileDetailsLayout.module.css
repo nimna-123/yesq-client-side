@@ -1,0 +1,177 @@
+.HosProf{
+   width:100%;
+   padding: 20px;
+}
+.Search{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.Search input{
+    width: 500px;
+    height: 40px;
+    border: 1px solid rgb(197, 194, 194);
+    border-radius: 5px;
+    padding-left: 40px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.HosDetails{
+    border: 1px solid rgb(162, 167, 229);
+    padding: 25px;
+}
+.HosImg img{
+    border-radius: 20px;
+}
+.HosDetails h2{
+    color: rgb(66, 61, 61);
+    text-align: center;
+    font-size: 21px;
+    margin-top: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    }
+.HosDetails p{
+    color: rgb(51, 46, 46);
+    text-align: center;
+    font-size: 16px;
+}
+    .ProdPad{
+        margin-top: 7px;
+       margin-left: 10px; 
+}
+.ProfDeatail{
+    font-size: 13px;
+    margin-top: 0px;
+    line-height: 18px;
+    padding-left: 7px;
+}
+.ProfDeatailLoc{
+    font-size: 13px;
+    margin-top: 0px;
+    line-height: 18px;
+    padding-left: 7px;
+    padding-top: 2px;
+    text-align: justify;
+
+}
+.Services{
+    width: 100%;
+    min-height: 430px;
+    background-color: #fff;
+    padding: 10px;
+}
+.Counters{
+    padding: 15px;
+}
+@media (max-width: 1300px){
+ 
+}
+@media (max-width: 980px){
+
+.HosProf{
+  padding: 20px
+
+}
+.HosDetails h2{
+   font-size: 17px;
+    margin-top: 15px;
+}
+.HosImg img{
+   padding:17px 17px 0px 17px;
+   border-radius: 30px;
+}
+.HosDetails p{
+  font-size: 14px;
+}
+.ProfDeatail{
+    font-size: 10px;
+    line-height: 16px;
+}
+.ProfDeatailLoc{
+    font-size: 10px;
+    line-height: 16px;
+    padding-top: 3px;
+
+}
+.HosDetails{
+    padding: 10px;
+    
+}
+.DetailPad{
+    padding:5px 5px 15px 22px;
+}
+.Services{
+ 
+    padding: 0px;
+}
+}
+@media (max-width: 835px){
+    
+.HosDetails{
+        padding: 0px;
+}
+.IconImg{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.ProfDeatail{
+    font-size: 12px;
+   line-height: 15px;
+   padding-top: 0px;
+}
+.ProfDeatailLoc{
+    font-size: 12px;
+    line-height: 15px;
+    padding-top: 4px;
+
+
+}
+}
+@media (max-width: 595px){
+
+.IconImg{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+.DetailPad{
+    padding:5px 20px 15px 20px;
+}
+.HosProf{
+    padding: 0px;
+ }
+ .HosDetails h2{
+    font-size: 17px;
+     margin-top: 15px;
+     margin-bottom: 0px;
+ }
+}
+
+@media (max-width: 980px){
+    .Services{
+        width: 100%;
+        min-height: 100px;
+        background-color: #fff;
+    }
+  
+}
+@media (max-width: 310px){
+ 
+.IconImg{
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+}
+}
+@media (max-width: 553px){
+ 
+    .IconImg{
+        width: 13px;
+        height: 13px;
+        margin-left: 8px;
+    }
+    }

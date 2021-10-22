@@ -1,0 +1,20 @@
+.UserButton{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    background: #1a7ff2;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.UserButton:hover{
+    background: #004dda;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+}

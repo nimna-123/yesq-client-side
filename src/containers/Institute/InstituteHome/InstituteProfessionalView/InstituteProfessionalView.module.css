@@ -1,0 +1,11 @@
+.ButtonAlign ul
+{
+  display:flex;  
+  list-style:none;
+}
+.PaginationPad{
+  margin-top: 21px;
+}
+.MainDiv{
+  padding: 20px;
+}

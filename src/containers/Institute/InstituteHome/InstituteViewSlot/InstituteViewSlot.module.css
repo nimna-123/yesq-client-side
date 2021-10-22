@@ -1,0 +1,11 @@
+.CounterPad{
+    padding: 20px 50px 80px 40px;
+  
+}
+.ButtonAlign ul{
+    display:flex;  
+    list-style:none;
+}
+.PaginationPad{
+    margin-top: 21px;
+  }

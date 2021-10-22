@@ -1,0 +1,11 @@
+.ViewButton{
+    width: 95%;
+    height: 35px;
+    background-color: rgb(126, 40, 206);
+    color:#fff;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 13px;
+
+}

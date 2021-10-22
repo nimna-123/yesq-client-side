@@ -1,0 +1,8 @@
+.FormGroup{
+        margin-bottom: 20px;
+    }
+.ErrorMsg{
+    color: rgba(255,0,0);
+    text-align: left;
+    font-size: 13px;
+}

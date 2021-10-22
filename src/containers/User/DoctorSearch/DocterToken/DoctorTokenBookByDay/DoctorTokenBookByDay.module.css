@@ -1,0 +1,209 @@
+.Tokens{
+    width: 100%;
+   padding: 30px 30px 0px 30px;
+}
+.PrevBtn{
+    width: 10%;
+    height: 45px;
+    border: 1px solid rgb(96, 164, 241);
+    background-color: #4bcadb;
+    cursor: pointer
+}
+
+.NextBtn{
+    width: 10%;
+    height: 45px;
+    border: 1px solid rgb(96, 164, 241);
+    background-color: #4bcadb;
+    cursor: pointer;
+}
+.Token{
+    width: 26.666%;
+    height: 45px;
+   background-color: rgb(55, 217, 238);
+   border: 1px solid rgb(96, 164, 241);
+   padding-top: 5px;
+   cursor: pointer;
+   font-size: 14px;
+   text-align: center;
+  color: #fff;
+   font-weight: 600;
+}
+.DateSecondItem{
+    /* width: 26.666%;
+    height: 45px;
+    border: 1px solid rgb(96, 164, 241);
+   padding-top: 9px;
+   cursor: pointer;
+   font-size: 14px;
+   text-align: center;
+    font-weight: 600; */
+    width: 26.666%;
+    height: 45px;
+   border: 2px solid rgb(96, 164, 241);
+   padding-top: 9px;
+   cursor: pointer;
+   font-size: 14px;
+   text-align: center;
+  font-weight: 600;
+
+}
+.DateScndBg{
+    /* color: #fff;
+    background-color: rgb(55, 217, 238); */
+    background-color: rgb(255, 255, 255);
+    color:#000;
+
+}
+.DateThirdItem{
+    /* width: 26.666%;
+    height: 45px;
+     border: 1px solid rgb(96, 164, 241);
+   padding-top: 9px;
+   cursor: pointer;
+   font-size: 14px;
+   text-align: center;
+  font-weight: 600; */
+  width: 26.666%;
+  height: 45px;
+ border: 2px solid rgb(96, 164, 241);
+ padding-top: 9px;
+ cursor: pointer;
+ font-size: 14px;
+ text-align: center;
+font-weight: 600;
+  
+}
+.DateThrdBg{
+    /* color: #fff;
+    background-color: rgb(55, 217, 238); */
+    background-color: rgb(255, 255, 255);
+    color:#000;
+}
+.DateActiveItem{
+    /* width: 26.666%;
+    height: 45px;
+   border: 2px solid rgb(96, 164, 241);
+   padding-top: 9px;
+   cursor: pointer;
+   font-size: 14px;
+   text-align: center;
+  font-weight: 600; */
+  width: 26.666%;
+    height: 45px;
+    border: 1px solid rgb(96, 164, 241);
+   padding-top: 9px;
+   cursor: pointer;
+   font-size: 14px;
+   text-align: center;
+    font-weight: 600; 
+}
+.DateActiveBg{
+    /* background-color: rgb(255, 255, 255);
+    color:#000; */
+      color: #fff;
+    background-color: rgb(55, 217, 238); 
+}
+.TokenPad{
+    padding: 10px 15px 10px 15px;
+}
+.TokenLayout{
+    border: 1px solid rgb(33, 114, 206);
+    width: 100%;
+    height: 40px;
+    /* padding: 8px 54px; */
+   cursor: pointer;
+}
+.SlotsPad{
+    padding-top: 25px;
+}
+.TokenBooked{
+     border: 1px solid rgb(141, 186, 237);
+    width: 100%;
+    height: 40px;
+    /* padding: 8px 54px;  */
+  
+}
+.TokenBookName{
+    color: rgb(181, 180, 180);
+    font-size: 14px;
+    text-decoration: line-through;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.TokenName{ 
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.TokenSelected{
+    background-color: rgb(116, 213, 203);
+}
+
+@media (max-width: 980px){
+    .DateThirdItem{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+     .DateActiveItem{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .DateSecondItem{
+        font-size: 12px;
+        padding-top: 10px;
+}
+
+}
+@media (max-width: 392px){
+    .DateThirdItem{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+     .DateActiveItem{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .DateSecondItem{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .UserHomeButton{
+        width: 100px;
+        padding: 5px;
+
+    }
+}
+@media (max-width: 468px){
+    .Tokens{
+        width: 100%;
+       padding: 30px 15px 0px 15px;
+    }
+    .TokenPad{
+        padding: 10px 5px 10px 5px;
+    }
+.BookForm{
+    padding: 0px 0px 20px 0px;
+}
+}
+@media (max-width: 785px){
+    .TokenName{
+        color: #000;
+        font-size: 13px;
+    }
+}
+@media (max-width: 1025px){
+    .TokenName{
+        color: #000;
+        font-size: 13px;
+    }
+}
+@media (max-width: 330px){
+ .TokenName{
+        color: #000;
+        font-size: 12px;
+       
+    }
+}

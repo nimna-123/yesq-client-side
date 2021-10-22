@@ -1,0 +1,27 @@
+.TokenList li{
+    display: inline;
+    font-size: 16px;
+}
+.TokenNav{
+    margin-left: 25px;
+}
+.TokenList{
+    margin-top: 10px!important;
+}
+.Active{
+    border-bottom: 2px solid #000;
+    text-decoration: none;
+    color:rgb(89, 85, 85);
+}
+.Active:hover{
+    text-decoration: none;
+    color:rgb(89, 85, 85);
+}
+.NavLinks{
+    color:rgb(89, 85, 85);
+    text-decoration: none;
+}
+.NavLinks:hover{
+    color:rgb(89, 85, 85);
+    text-decoration: none;
+}

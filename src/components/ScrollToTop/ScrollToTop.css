@@ -1,0 +1,29 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 12px;
+    left: 94%;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: #81c4e0;
+    color: #fff;
+    z-index: 1;
+  }
+  .scroll-to-top .icon {
+    margin-top: 5px;
+    animation: scrollTop 0.5s alternate ease infinite;
+  }
+  @keyframes scrollTop {
+    from {
+        transform: translateY(2px);
+    }
+    to {
+        transform: translateY(-1px);
+    }
+  }
+  @media (max-width:980px) {
+    .DeskTopOnly{
+      display: none;
+    }
+  }
+  

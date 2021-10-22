@@ -1,0 +1,124 @@
+.SignInCap{
+    text-align: right;
+    font-size: 14px;
+    padding-left: 700px;
+    color: #6c757d;
+}
+.HeaderShadow{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 1%), 0 10px 30px rgb(0 0 0 / 8%);
+}
+.HeaderPad ul{
+    padding: 0px;
+}
+.LogoAlign li{
+    list-style: none;
+    display: inline;
+}
+
+.HeaderPad{
+    padding: 20px 0px 5px 0px;
+}
+.SignInButton{
+    display: flex;
+    width: 250px !important;
+    margin-bottom: 5px;
+    background: #1a7ff2;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-left: 15px;
+   
+}
+.SignInButton:hover{
+    background: #004dda;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.LogoAlignMob li{
+    list-style: none;
+    display: inline;
+}
+.SignInButtonMob{
+    display: flex;
+    margin-bottom: 5px;
+    background: #1a7ff2;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin-left: 230px;
+}
+@media only screen and (max-width: 990px){
+    .SignInCap{
+        padding-left: 200px;
+    } 
+}
+@media only screen and (max-width: 772px){
+    .SignInCap{
+        padding-left: 50px;
+    } 
+}
+@media only screen and (max-width: 772px){
+    .LogoAlign{
+        display: none;
+    } 
+}
+@media only screen and (min-width: 772px){
+    .LogoAlignMob{
+        display: none;
+    } 
+}
+@media only screen and (max-width: 772px){
+    .LogoAlignMob{
+        display: flex;
+    } 
+}
+@media only screen and (max-width: 504px){
+   .SignInButtonMob{
+       margin-left: 150px;
+   }
+}
+@media only screen and (max-width: 410px){
+    .SignInButtonMob{
+        margin-left: 100px;
+    }
+ }
+ @media only screen and (max-width: 359px){
+    .SignInButtonMob{
+        margin-left: 50px;
+    }
+ }
+
+.InstituteHead{
+   
+    width: 75%;
+    position: fixed;
+    overflow: hidden;
+    top: 20px;
+    
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+.HeadPosition{
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+    height: 85px !important;
+     box-shadow: 0 1px 1px rgb(0 0 0 / 1%), 0 10px 30px rgb(0 0 0 / 8%) !important;
+}
+.SignInCaptn{
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 0px !important;
+
+}
+
