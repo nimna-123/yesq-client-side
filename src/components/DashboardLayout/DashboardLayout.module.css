@@ -1,0 +1,64 @@
+.logo {
+    height: 40px;
+    margin: 16px;
+    background: rgba(255, 254, 254, 0.938);
+    color:#198754;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .siteLayoutmenu{
+    background: rgb(213, 241, 184);
+  }
+  .siteLayoutSubmenu{
+    background: rgb(213, 241, 184);
+    font-size: 16px;
+    color: #000 !important;
+
+  }
+  .siteLayoutSubmenu:hover{
+    color: #000 !important;
+
+  }
+  .LayoutLink{
+    color: rgb(59, 55, 55) ;
+    font-size: 14px;
+  }
+  .LayoutLink:hover{
+    color: rgb(59, 55, 55) !important;
+
+  }
+  
+  .siteLayoutSubHeaderBackground {
+    background: #fff;
+  }
+  
+  .siteLayoutBackground{
+    background: #fff;
+    padding: 24px;
+    min-height: 360px; 
+  }
+  .MainLayout{
+    margin: 4px 16px 0;
+  }
+
+  
+  @media only screen and (max-width: 600px){
+    .LayoutLink{
+     font-size: 14px;
+    }
+    .siteLayoutSubmenu{
+      font-size: 16px;
+    }
+    .siteLayoutBackground{
+      padding: 10px;
+       
+    }
+  }
+  @media only screen and (max-width: 400px){
+    .MainLayout{
+      margin: 0px;
+    }
+  }
+  

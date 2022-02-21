@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import InstituteHomeLayout from '../../../components/InstituteHomeLayout/InstituteHomeLayout'
+import DashBoardLayout from '../../../components/DashboardLayout/DashboardLayout';
 import ViewProfile from '../../../components/ProfileView/ProfileView'
 import { connect } from 'react-redux';
 import * as actions from '../../../store/actions/index'
@@ -74,8 +75,8 @@ class InstituteHome extends Component{
   
     return( 
        
-        <InstituteHomeLayout>
-             < Modals shows={this.state.show} hide={this.handleClose} closeBtn={this.handleUpdated} heading='SUCCESS!' body='Profile photo Added successfully'/>
+        <DashBoardLayout>
+             {/* < Modals shows={this.state.show} hide={this.handleClose} closeBtn={this.handleUpdated} heading='SUCCESS!' body='Profile photo Added successfully'/>
              <div className='row' style={style.RowMarg}>
                 <div className='col-md-4'>
                     <h3 className={Classes.UploadImgCap}>Upload your profile photo</h3>
@@ -88,9 +89,9 @@ class InstituteHome extends Component{
                 <ViewProfile id={this.props.istId} orgName={this.state.instDet.ISTNAME} mobile={this.state.instDet.MOBILE} email={this.state.instDet.EMAIL}
                 address={this.state.instDet.ADDRESS} grp={this.state.instDet.GROUP_NAME} cat={this.state.instDet.CATEGORY_NAME} subcat={this.state.instDet.SUBCATEGORY_NAME} loc={this.state.instDet.LOCATION} sate={this.state.instDet.STATE} distr={this.state.instDet.DISTRICT} pincode={this.state.instDet.PINCODE}/>
                
-           </div>
+           </div> */}
            
-    </InstituteHomeLayout>
+    </DashBoardLayout>
 
     )
 }
